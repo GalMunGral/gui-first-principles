@@ -1,119 +1,19 @@
 <head>
-  <title>SIGUI</title>
+  <title>Graphical User Interfaces: First Principles</title>
   <meta name="viewport" content="initial-scale=1, user-scalable=no" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
-    rel="stylesheet"
-  />
-
   <style>
-    body {
-      max-width: 600px;
-      padding: 40px;
-      margin: auto;
-      overflow-x: hidden;
-      font-family: "EB Garamond", serif;
-      font-size: 20px;
-      padding-bottom: 200px;
-    }
-
-    code {
-      font-size: 0.75em;
-    }
-
-    h1,
-    h2,
-    h3,
-    h4 {
-      text-align: center;
-      font-style: italic;
-    }
-
-    h2,
-    h3 {
-      font-weight: normal;
-    }
-
-    h2 {
-      margin-top: 50px;
-    }
-
-    input {
-      width: 200px;
-    }
-
-    input[type="number"] {
-      width: 50px;
-      margin-right: 10px;
-    }
-
-    label {
-      color: gray;
-      font-size: 0.75em;
-    }
-
-    input[type="file"] {
-      width: 200px;
-    }
-
-    a {
-      color: black;
-    }
-
-    pre {
-      overflow: scroll;
-    }
-
-    canvas {
-      user-select: none;
-      display: block;
-      width: 100%;
-      height: 200px;
-      box-shadow: 0 0 5px lightgray;
-      margin: 20px auto;
-      touch-action: none;
-    }
-
-    #gpu {
-      box-shadow: none;
-    }
-
-    #glass {
-      width: 600px;
-      height: 400px;
-    }
-
-    blockquote pre {
-      font-family: "Courier New", monospace;
-      font-weight: bold;
-      font-size: 16px;
-    }
-
-    .interactive {
-      position: relative;
-      margin: 20px 0;
-    }
-
-    .interactive:hover .prompt {
-      opacity: 0;
-    }
-
-    .prompt {
-      color: gray;
-      opacity: 0.9;
-      transition: 0.5s all;
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      padding: 20px 40px;
-      pointer-events: none;
-      font-style: italic;
-      background: white;
-    }
+    body { max-width: 640px; margin: 2rem auto; overflow-x: hidden; }
+    pre { overflow: scroll; }
+    input { width: 200px; }
+    input[type="number"] { width: 50px; margin-right: 10px; }
+    label { color: gray; font-size: 0.75em; }
+    canvas { user-select: none; display: block; width: 100%; height: 200px; box-shadow: 0 0 5px lightgray; margin: 20px auto; touch-action: none; }
+    #gpu { box-shadow: none; }
+    #glass { width: 640px; height: 400px; }
+    .interactive { position: relative; margin: 20px 0; }
+    .interactive:hover .prompt { opacity: 0; }
+    .prompt { color: gray; opacity: 0.9; transition: 0.5s all; position: absolute; left: 0; right: 0; top: 0; bottom: 0; padding: 20px 40px; pointer-events: none; font-style: italic; background: white; }
   </style>
-
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script
     async
@@ -122,11 +22,7 @@
 </head>
 
 <body>
-  <h1>
-    Structure and Interpretation<br />
-    of Graphical User Interfaces <br />
-  </h1>
-  <h3 style="color: gray">What I Wish I Had Learned in CS 101</h3>
+  <h1>Graphical User Interfaces: First Principles</h1>
 
   <p>
     How exactly does a computer
