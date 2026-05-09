@@ -1,6 +1,6 @@
 # Graphical User Interfaces: First Principles
 
-**Live demo:** https://galmungral.github.io/sigui/
+**Live demo:** https://galmungral.github.io/gui-first-principles/
 
 ## Rhetorical Design
 
