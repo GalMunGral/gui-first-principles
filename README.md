@@ -6,13 +6,13 @@
 
 ### Purpose
 
-Every programmer interacts daily with GUI toolkits, font renderers, and graphics
-APIs, but the mechanism underneath — how geometric descriptions become a pixel
-grid — is rarely exposed. This project demonstrates that the entire pipeline,
-from drawing a polygon to rendering a font to applying a blur, reduces to a
-small set of operations: scan-line rasterization, linear interpolation, matrix
-multiplication, and convolution. None of it requires specialized machinery
-beyond a straightforward algorithm.
+Every programmer builds on top of rendering infrastructure they rarely look into.
+Buttons, sliders, font styles, drop shadows — these feel like design primitives,
+but underneath each one is pixels computed from geometry. This project
+demonstrates that the full pipeline, from filling a polygon to rendering a
+typeface to applying a blur, reduces to a small set of operations: scan-line
+rasterization, linear interpolation, matrix multiplication, and convolution.
+None of it requires specialized machinery.
 
 ### Strategy
 
