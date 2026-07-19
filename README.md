@@ -1,6 +1,6 @@
 # Graphical User Interfaces: First Principles
 
-**Live demo:** https://galmungral.github.io/gui-first-principles/
+**Live demo:** https://hwenchi.github.io/gui-first-principles/
 
 ## Rhetorical Design
 
@@ -22,9 +22,9 @@ manipulate the parameters and verify the claim. The progression is incremental â
 each concept builds on the previous â€” so by the time the reader reaches font
 rendering and GPU acceleration, every piece of it is already familiar.
 
-[michelangelo](https://github.com/GalMunGral/michelangelo) builds a GUI
+[michelangelo](https://github.com/hwenchi/michelangelo) builds a GUI
 component framework directly on top of the primitives introduced here.
-[vector-rendering](https://github.com/GalMunGral/vector-rendering) explores what
+[vector-rendering](https://github.com/hwenchi/vector-rendering) explores what
 changes when GPU hardware enters the pipeline.
-[svg.c](https://github.com/GalMunGral/svg.c) implements the same rasterization
+[svg.c](https://github.com/hwenchi/svg.c) implements the same rasterization
 pipeline in C, applied to a real-world format.
