@@ -186,9 +186,7 @@ fn draw(curve):
   <div class="interactive">
     <div class="prompt">
       <p>This canvas implements the rasterization algorithm described above.</p>
-      <p lang="zh">这个画布实现了上文描述的光栅化算法。</p>
       <p>Click on the canvas to place your vertices. You'll need at least 3.</p>
-      <p lang="zh">点击画布来放置顶点，你至少需要放置 3 个。</p>
     </div>
     <canvas id="polygon"></canvas>
     <script type="module" src="./demo/polygon.js"></script>
@@ -226,7 +224,6 @@ fn draw(curve):
   <div class="interactive">
     <div class="prompt">
       <p>Drag the square to see composed transformations in action!</p>
-      <p lang="zh">拖动这个方块，看看复合变换是如何生效的！</p>
     </div>
     <canvas id="transform"></canvas>
     <script type="module" src="./demo/transform.js"></script>
@@ -264,7 +261,6 @@ fn draw(curve):
       <p>
         You can smooth out this curve by increasing the sampling rate \(N\)!
       </p>
-      <p lang="zh">你可以通过提高采样率 \(N\)，让这条曲线变得更平滑！</p>
     </div>
     <canvas id="ellipse"></canvas>
   </div>
@@ -296,9 +292,7 @@ fn draw(curve):
   <div class="interactive">
     <div class="prompt">
       <p>Try writing with your mouse/trackpad on this canvas.</p>
-      <p lang="zh">试着用鼠标或触控板在这个画布上写字。</p>
       <p>Can you spot the circles and rectangles?</p>
-      <p lang="zh">你能看出其中的圆形和矩形吗？</p>
     </div>
     <canvas id="curve"></canvas>
   </div>
@@ -328,11 +322,6 @@ fn draw(curve):
     <div class="prompt">
       <p>
         Take a look at these examples: $$t_{radial} = \frac{\sqrt{(x-x_o)^2 +
-        (y-y_o)^2}}{r}, \quad t_{linear} = \frac{y - y_{min}}{y_{max} -
-        y_{min}}$$
-      </p>
-      <p lang="zh">
-        来看看这些例子：$$t_{radial} = \frac{\sqrt{(x-x_o)^2 +
         (y-y_o)^2}}{r}, \quad t_{linear} = \frac{y - y_{min}}{y_{max} -
         y_{min}}$$
       </p>
@@ -380,9 +369,6 @@ fn draw(curve):
       <p>
         Click on this canvas to place your control points for the B&eacute;zier curve.
       </p>
-      <p lang="zh">
-        点击这个画布，放置贝塞尔曲线的控制点。
-      </p>
     </div>
 
     <canvas id="animation"></canvas>
@@ -406,9 +392,6 @@ fn draw(curve):
         The text on this canvas is rendered using the same JavaScript
         implementation of the scan-line rasterization algorithm as well as the
         discretization trick we discussed earlier.
-      </p>
-      <p lang="zh">
-        这个画布上的文字，使用的正是我们前面讨论过的同一套扫描线光栅化算法的 JavaScript 实现，以及离散化的技巧来渲染。
       </p>
     </div>
     <canvas id="font"></canvas>
@@ -457,11 +440,9 @@ fn drawView(parent):
   <div class="interactive">
     <div class="prompt">
       <p>These buttons are handmade from raw pixels!</p>
-      <p lang="zh">这些按钮完全是用原始像素手工绘制出来的！</p>
       <p>
         You can adjust the border radius to test the hit-detection mechanism.
       </p>
-      <p lang="zh">你可以调整圆角半径，来测试命中检测机制。</p>
     </div>
     <canvas id="recursion"></canvas>
   </div>
@@ -494,9 +475,7 @@ fn drawView(parent):
       <p>
         Are you able to identify the stacking order of these transparent layers?
       </p>
-      <p lang="zh">你能看出这些透明图层的堆叠顺序吗？</p>
       <p>You can increase the opacity to verify your answer!</p>
-      <p lang="zh">你可以提高不透明度，来验证你的答案！</p>
     </div>
     <canvas id="alpha-compositing"></canvas>
   </div>
@@ -537,9 +516,7 @@ fn drawView(parent):
   <div class="interactive">
     <div class="prompt">
       <p>Drag the lens across the image to see Gaussian blur in action!</p>
-      <p lang="zh">把这个镜片拖过图像，看看高斯模糊的实际效果！</p>
       <p>The blur effect is written in JavaScript and performed on the CPU.</p>
-      <p lang="zh">这个模糊效果是用 JavaScript 编写的，在 CPU 上完成计算。</p>
     </div>
     <canvas id="glass"></canvas>
   </div>
@@ -564,9 +541,7 @@ fn drawView(parent):
   <div class="interactive">
     <div class="prompt">
       <p>This text is being rendered as triangles on the GPU.</p>
-      <p lang="zh">这段文字正在 GPU 上以三角形的形式渲染。</p>
       <p>In each frame, a random triangulation is performed on the CPU.</p>
-      <p lang="zh">每一帧都会在 CPU 上执行一次随机三角剖分。</p>
     </div>
     <canvas id="gpu"></canvas>
     <script type="module" src="./demo/gpu.js"></script>
